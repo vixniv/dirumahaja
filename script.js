@@ -2,9 +2,9 @@
 
 var canvas = new fabric.Canvas("c");
 if ($(window).width() < 500) {
-  $(".toolWindow").width(406);
-  canvas.setWidth(406);
-  canvas.setHeight(406);
+  $(".toolWindow").width(356);
+  canvas.setWidth(356);
+  canvas.setHeight(356);
 }
 canvas.preserveObjectStacking = true; //stop bringtofront on selected objects
 var imgElement = document.getElementById("my-image");
