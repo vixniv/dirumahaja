@@ -3,7 +3,7 @@
 var canvas = new fabric.Canvas("c");
 if ($(window).width() < 500) {
   /*$(".toolWindow").width(336);*/
-  $(".toolWindow").css("width", "336px");
+  $(".toolWindow").css("width", "335px");
   canvas.setWidth(330);
   canvas.setHeight(330);
 }
