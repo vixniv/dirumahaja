@@ -56,7 +56,6 @@ a {
   background: #FFFFFF;
   border: 3px solid #000000;
   box-sizing: border-box;
-  box-sizing: border-box;
   border-radius: 3px;
   /*   max-width: 506px; */
   width: 506px;
@@ -241,4 +240,12 @@ div.p5 {
   .profiles {
     display: none;
   }
+  
+}
+@media only screen and (max-width: 500px) {
+  .toolWindow {
+    width: 342px;
+    box-sizing: border-box;
+  }
+  
 }

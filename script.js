@@ -2,7 +2,7 @@
 
 var canvas = new fabric.Canvas("c");
 if ($(window).width() < 500) {
-  $(".toolWindow").width(336);
+  /*$(".toolWindow").width(336);*/
   canvas.setWidth(336);
   canvas.setHeight(336);
 }
@@ -104,7 +104,7 @@ function deleteActiveObjects() {
 $("#download").bind("click", function(e) {
   var that = this;
   // debugger;
-  var dataURL = canvas.toDataURL("image/png");
+  var dataURL = canvas.toDataURL({format:"image/png",multiplier: 2});
   
   const link = document.createElement("a");
   link.download = "image.png";
